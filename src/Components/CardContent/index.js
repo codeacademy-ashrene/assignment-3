@@ -54,7 +54,7 @@ class CardContent extends Component {
         <img className="image" src="./cover_image.jpeg" alt="Harry Potter Books"/>
         <div class = "cardTextAndReaction">
           <div className = "cardText">{this.props.bookData.Name}{this.props.bookData.id}</div>
-          <div className = "rating">{this.props.bookData.rating}<img alt="heart" src={liked} className="heart" onClick={this.onLikeClick}/></div>
+          <div className = "rating">{Math.round(this.props.bookData.rating *10)/10}<img alt="heart" src={liked} className="heart" onClick={this.onLikeClick}/></div>
         </div>
       </div>
     );
