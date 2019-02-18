@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthorCard should render header 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="cardContent"
+  >
+    <img
+      alt="Harry Potter Books"
+      className="image"
+      src="./cover_image.jpeg"
+    />
+    <div
+      class="cardTextAndReaction"
+    >
+      <div
+        className="cardText"
+      >
+        Harry Potter and the Sorcerers Stone (Harry Potter, #1)
+        10
+      </div>
+      <div
+        class="rating"
+      >
+        4.45
+        <img
+          alt="heart"
+          className="heart"
+          src="./Icons/heart-black.svg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

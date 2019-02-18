@@ -1,0 +1,17 @@
+.authorCard{
+  display: flex;
+  border: solid;
+  border-color: orange;
+  border-radius: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.author{
+  background: white;
+  width: 10%;
+  margin:auto;
+  padding: 1%;
+}
