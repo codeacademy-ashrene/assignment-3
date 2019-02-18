@@ -2,254 +2,256 @@
 
 exports[`AuthorCard should render header 1`] = `
 <div
-  class="authorName"
+  className="authorName"
 >
-  <div
-    class="author"
-  >
-    J K Rowling
-  </div>
-  <div
-    className="authorCard"
-  >
+  <fieldset>
+    <legend
+      className="author"
+    >
+      J K Rowling
+    </legend>
     <div
-      className="card"
+      className="authorCard"
     >
       <div
-        className="cardContentOrange"
+        className="card"
       >
-        <img
-          alt="Harry Potter Books"
-          className="image"
-          src="./cover_image.jpeg"
-        />
         <div
-          class="cardTextAndReaction"
+          className="cardContentOrange"
         >
+          <img
+            alt="Harry Potter Books"
+            className="image"
+            src="./cover_image.jpeg"
+          />
           <div
-            className="cardText"
+            className="cardTextAndReaction"
           >
-            Harry Potter and the Sorcerers Stone (Harry Potter, #1)
-            10
+            <div
+              className="cardText"
+            >
+              Harry Potter and the Sorcerers Stone (Harry Potter, #1)
+              10
+            </div>
+            <div
+              className="rating"
+            >
+              4.5
+              <img
+                alt="heart"
+                className="heart"
+                onClick={[Function]}
+                src="./Icons/heart-plain.svg"
+              />
+            </div>
           </div>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <div
+          className="cardContentWhite"
+        >
+          <img
+            alt="Harry Potter Books"
+            className="image"
+            src="./cover_image.jpeg"
+          />
           <div
-            className="rating"
+            className="cardTextAndReaction"
           >
-            4.45
-            <img
-              alt="heart"
-              className="heart"
-              onClick={[Function]}
-              src="./Icons/heart-black.svg"
-            />
+            <div
+              className="cardText"
+            >
+              Harry Potter and the Chamber of Secrets (Harry Potter, #2)
+              20
+            </div>
+            <div
+              className="rating"
+            >
+              4.4
+              <img
+                alt="heart"
+                className="heart"
+                onClick={[Function]}
+                src="./Icons/heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <div
+          className="cardContentOrange"
+        >
+          <img
+            alt="Harry Potter Books"
+            className="image"
+            src="./cover_image.jpeg"
+          />
+          <div
+            className="cardTextAndReaction"
+          >
+            <div
+              className="cardText"
+            >
+              Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)
+              30
+            </div>
+            <div
+              className="rating"
+            >
+              4.5
+              <img
+                alt="heart"
+                className="heart"
+                onClick={[Function]}
+                src="./Icons/heart-plain.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <div
+          className="cardContentWhite"
+        >
+          <img
+            alt="Harry Potter Books"
+            className="image"
+            src="./cover_image.jpeg"
+          />
+          <div
+            className="cardTextAndReaction"
+          >
+            <div
+              className="cardText"
+            >
+              Harry Potter and the Goblet of Fire (Harry Potter, #4)
+              40
+            </div>
+            <div
+              className="rating"
+            >
+              4.5
+              <img
+                alt="heart"
+                className="heart"
+                onClick={[Function]}
+                src="./Icons/heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <div
+          className="cardContentOrange"
+        >
+          <img
+            alt="Harry Potter Books"
+            className="image"
+            src="./cover_image.jpeg"
+          />
+          <div
+            className="cardTextAndReaction"
+          >
+            <div
+              className="cardText"
+            >
+              Harry Potter and the Order of the Phoenix (Harry Potter, #5)
+              50
+            </div>
+            <div
+              className="rating"
+            >
+              4.5
+              <img
+                alt="heart"
+                className="heart"
+                onClick={[Function]}
+                src="./Icons/heart-plain.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <div
+          className="cardContentWhite"
+        >
+          <img
+            alt="Harry Potter Books"
+            className="image"
+            src="./cover_image.jpeg"
+          />
+          <div
+            className="cardTextAndReaction"
+          >
+            <div
+              className="cardText"
+            >
+              Harry Potter and the Half-Blood Prince (Harry Potter, #6)
+              60
+            </div>
+            <div
+              className="rating"
+            >
+              4.5
+              <img
+                alt="heart"
+                className="heart"
+                onClick={[Function]}
+                src="./Icons/heart-black.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card"
+      >
+        <div
+          className="cardContentOrange"
+        >
+          <img
+            alt="Harry Potter Books"
+            className="image"
+            src="./cover_image.jpeg"
+          />
+          <div
+            className="cardTextAndReaction"
+          >
+            <div
+              className="cardText"
+            >
+              Harry Potter and the Deathly Hallows (Harry Potter, #7)
+              70
+            </div>
+            <div
+              className="rating"
+            >
+              4.6
+              <img
+                alt="heart"
+                className="heart"
+                onClick={[Function]}
+                src="./Icons/heart-plain.svg"
+              />
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div
-      className="card"
-    >
-      <div
-        className="cardContentWhite"
-      >
-        <img
-          alt="Harry Potter Books"
-          className="image"
-          src="./cover_image.jpeg"
-        />
-        <div
-          class="cardTextAndReaction"
-        >
-          <div
-            className="cardText"
-          >
-            Harry Potter and the Chamber of Secrets (Harry Potter, #2)
-            20
-          </div>
-          <div
-            className="rating"
-          >
-            4.38
-            <img
-              alt="heart"
-              className="heart"
-              onClick={[Function]}
-              src="./Icons/heart-black.svg"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="card"
-    >
-      <div
-        className="cardContentOrange"
-      >
-        <img
-          alt="Harry Potter Books"
-          className="image"
-          src="./cover_image.jpeg"
-        />
-        <div
-          class="cardTextAndReaction"
-        >
-          <div
-            className="cardText"
-          >
-            Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)
-            30
-          </div>
-          <div
-            className="rating"
-          >
-            4.54
-            <img
-              alt="heart"
-              className="heart"
-              onClick={[Function]}
-              src="./Icons/heart-black.svg"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="card"
-    >
-      <div
-        className="cardContentWhite"
-      >
-        <img
-          alt="Harry Potter Books"
-          className="image"
-          src="./cover_image.jpeg"
-        />
-        <div
-          class="cardTextAndReaction"
-        >
-          <div
-            className="cardText"
-          >
-            Harry Potter and the Goblet of Fire (Harry Potter, #4)
-            40
-          </div>
-          <div
-            className="rating"
-          >
-            4.53
-            <img
-              alt="heart"
-              className="heart"
-              onClick={[Function]}
-              src="./Icons/heart-black.svg"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="card"
-    >
-      <div
-        className="cardContentOrange"
-      >
-        <img
-          alt="Harry Potter Books"
-          className="image"
-          src="./cover_image.jpeg"
-        />
-        <div
-          class="cardTextAndReaction"
-        >
-          <div
-            className="cardText"
-          >
-            Harry Potter and the Order of the Phoenix (Harry Potter, #5)
-            50
-          </div>
-          <div
-            className="rating"
-          >
-            4.47
-            <img
-              alt="heart"
-              className="heart"
-              onClick={[Function]}
-              src="./Icons/heart-black.svg"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="card"
-    >
-      <div
-        className="cardContentWhite"
-      >
-        <img
-          alt="Harry Potter Books"
-          className="image"
-          src="./cover_image.jpeg"
-        />
-        <div
-          class="cardTextAndReaction"
-        >
-          <div
-            className="cardText"
-          >
-            Harry Potter and the Half-Blood Prince (Harry Potter, #6)
-            60
-          </div>
-          <div
-            className="rating"
-          >
-            4.54
-            <img
-              alt="heart"
-              className="heart"
-              onClick={[Function]}
-              src="./Icons/heart-black.svg"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="card"
-    >
-      <div
-        className="cardContentOrange"
-      >
-        <img
-          alt="Harry Potter Books"
-          className="image"
-          src="./cover_image.jpeg"
-        />
-        <div
-          class="cardTextAndReaction"
-        >
-          <div
-            className="cardText"
-          >
-            Harry Potter and the Deathly Hallows (Harry Potter, #7)
-            70
-          </div>
-          <div
-            className="rating"
-          >
-            4.62
-            <img
-              alt="heart"
-              className="heart"
-              onClick={[Function]}
-              src="./Icons/heart-black.svg"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  </fieldset>
 </div>
 `;

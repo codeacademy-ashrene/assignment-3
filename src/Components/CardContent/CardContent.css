@@ -3,12 +3,16 @@
   flex-direction: column;
   height:100%;
   background: orange;
+  color: #282828;
+  font-weight: bold;
 }
 .cardContentWhite{
   display: flex;
   flex-direction: column;
   height:100%;
   background: white;
+  color: orange;
+  font-weight: bold;
 }
 .heart{
   float:right;
@@ -32,5 +36,5 @@
 .rating{
   font-size: 20px;
   font-weight: bold;
-  color: #282828;
+  
 }

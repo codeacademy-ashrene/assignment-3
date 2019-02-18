@@ -21,7 +21,7 @@ class BookCard extends Component {
   }
 }
 BookCard.propTypes = {
-  bookData: PropTypes.array
+  bookData: PropTypes.object
 }
 
 export default BookCard

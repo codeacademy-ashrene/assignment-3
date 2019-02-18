@@ -45,14 +45,35 @@ class CardContent extends Component {
   //   }
   // }
   render(){
-    const liked = this.state.likeStatus === "like" ? './Icons/heart-red.svg' : './Icons/heart-black.svg';
-    const cardColour = (this.props.styleCounter % 2) === 0 ? "cardContentWhite" : "cardContentOrange";
+    let cardColour;
+    let liked;
+    // const liked = (this.state.likeStatus !== "like")&&((this.props.styleCounter % 2) === 0) ? './Icons/heart-black.svg' : ;
+    if((this.state.likeStatus !== "like")){
+      if((this.props.styleCounter % 2) === 0){
+        cardColour = "cardContentWhite";
+        liked = './Icons/heart-black.svg';
+      }
+      else{
+        cardColour = "cardContentOrange";
+        liked = './Icons/heart-plain.svg';
+      }
+    }
+    else{
+      if((this.props.styleCounter % 2) === 0){
+        cardColour = "cardContentWhite";
+      }
+      else{
+        cardColour = "cardContentOrange";
+      }
+      liked = './Icons/heart-red.svg';
+    }
+    // const cardColour = (this.props.styleCounter % 2) === 0 ? "cardContentWhite" : "cardContentOrange";
     console.log('LIKESTATE',this.state);
     return (
       
       <div className={cardColour}>
         <img className="image" src="./cover_image.jpeg" alt="Harry Potter Books"/>
-        <div class = "cardTextAndReaction">
+        <div className = "cardTextAndReaction">
           <div className = "cardText">{this.props.bookData.Name}{this.props.bookData.id}</div>
           <div className = "rating">{Math.round(this.props.bookData.rating *10)/10}<img alt="heart" src={liked} className="heart" onClick={this.onLikeClick}/></div>
         </div>
@@ -62,7 +83,7 @@ class CardContent extends Component {
 }
 
 CardContent.propTypes = {
-  bookData: PropTypes.array
+  bookData: PropTypes.object
 }
 
 export default CardContent

@@ -1,11 +1,14 @@
-/* .authorName{
-  position: relative;
-} */
-.authorCard{
-  display: flex;
+.authorName{
+  margin: 2%;
+}
+fieldset{
   border: solid;
   border-color: orange;
-  border-radius: 20px;
+  border-radius: 30px;
+  border-width: 5px;
+}
+.authorCard{
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;

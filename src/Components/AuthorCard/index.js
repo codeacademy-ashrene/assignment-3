@@ -16,17 +16,16 @@ class AuthorCard extends Component {
       )
     });
     return (
-      <div class = "authorName">
-        <div class="author">{author}</div>
-        <div className="authorCard">
-          {cardRow}
-        </div>
+      <div className = "authorName">
+        <fieldset><legend className="author">{author}</legend>
+          <div className="authorCard">
+            {cardRow}
+          </div>
+        </fieldset>
+        
       </div>
     );
   }
 }
 
-AuthorCard.propTypes = {
-  bookData: PropTypes.array
-}
 export default AuthorCard;

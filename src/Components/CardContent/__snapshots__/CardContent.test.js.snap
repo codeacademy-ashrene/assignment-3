@@ -10,7 +10,7 @@ exports[`CardContent should render header 1`] = `
     src="./cover_image.jpeg"
   />
   <div
-    class="cardTextAndReaction"
+    className="cardTextAndReaction"
   >
     <div
       className="cardText"
@@ -21,12 +21,12 @@ exports[`CardContent should render header 1`] = `
     <div
       className="rating"
     >
-      4.45
+      4.5
       <img
         alt="heart"
         className="heart"
         onClick={[Function]}
-        src="./Icons/heart-black.svg"
+        src="./Icons/heart-plain.svg"
       />
     </div>
   </div>
