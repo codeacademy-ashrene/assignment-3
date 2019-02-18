@@ -2,11 +2,6 @@ import React, {Component} from 'react';
 import './Header.css';
 
 class Header extends Component {
-  state = {
-    bookDetails: [],
-    isLoading: true,
-  }
-
   render(){
     return (
       <div className = "bookShelf">

@@ -23,12 +23,13 @@
 .title{
   font-size: 30px;
   border: solid;
-  border-radius: 40px;
+  border-radius: 50%;
   padding: 1%;
   margin-left: 5%;
   margin-right: 5%;
   background: none;
   color: white;
+  text-align: center;
 }
 .subheading{
   font-style: italic;

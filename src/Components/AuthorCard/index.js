@@ -16,7 +16,7 @@ class AuthorCard extends Component {
       )
     });
     return (
-      <div>
+      <div class = "authorName">
         <div class="author">{author}</div>
         <div className="authorCard">
           {cardRow}

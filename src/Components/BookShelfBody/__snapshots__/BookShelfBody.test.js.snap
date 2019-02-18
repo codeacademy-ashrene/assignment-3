@@ -5,7 +5,9 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
   <div
     className="bookShelfBody"
   >
-    <div>
+    <div
+      class="authorName"
+    >
       <div
         class="author"
       >
@@ -254,7 +256,9 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
         </div>
       </div>
     </div>
-    <div>
+    <div
+      class="authorName"
+    >
       <div
         class="author"
       >
