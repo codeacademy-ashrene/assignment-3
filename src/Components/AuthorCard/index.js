@@ -7,10 +7,12 @@ class AuthorCard extends Component {
   render(){
     let cardRow = [];
     let author;
+    let counter = 0;
     this.props.bookData.forEach(element => {
+      counter += 1;
       author = element.Author;
       cardRow.push(
-        <BookCard bookData = {element} key={element.id}/>
+        <BookCard bookData = {element} styleCounter = {counter} key={element.id}/>
       )
     });
     return (

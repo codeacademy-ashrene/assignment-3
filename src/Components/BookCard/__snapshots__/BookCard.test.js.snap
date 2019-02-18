@@ -5,7 +5,7 @@ exports[`AuthorCard should render header 1`] = `
   className="card"
 >
   <div
-    className="cardContent"
+    className="cardContentOrange"
   >
     <img
       alt="Harry Potter Books"
@@ -22,7 +22,7 @@ exports[`AuthorCard should render header 1`] = `
         10
       </div>
       <div
-        class="rating"
+        className="rating"
       >
         4.45
         <img

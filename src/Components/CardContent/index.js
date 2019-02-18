@@ -17,14 +17,15 @@ class CardContent extends Component {
   
   render(){
     const liked = this.state.likeStatus === "like" ? './Icons/heart-red.svg' : './Icons/heart-black.svg';
+    const cardColour = (this.props.styleCounter % 2) === 0 ? "cardContentWhite" : "cardContentOrange";
     console.log('LIKESTATE',this.state);
     return (
       
-      <div className="cardContent">
+      <div className={cardColour}>
         <img className="image" src="./cover_image.jpeg" alt="Harry Potter Books"/>
         <div class = "cardTextAndReaction">
           <div className = "cardText">{this.props.bookData.Name}{this.props.bookData.id}</div>
-          <div class = "rating">{this.props.bookData.rating}<img alt="heart" src={liked} className="heart" /></div>
+          <div className = "rating">{this.props.bookData.rating}<img alt="heart" src={liked} className="heart" /></div>
         </div>
       </div>
     );

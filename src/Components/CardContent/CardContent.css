@@ -1,9 +1,15 @@
-.cardContent{
+.cardContentOrange{
   display: flex;
   flex-direction: column;
   height:100%;
+  background: orange;
 }
-
+.cardContentWhite{
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  background: white;
+}
 .heart{
   float:right;
   height: 30px;
@@ -15,7 +21,7 @@
 }
 
 .cardTextAndReaction{
-  background: orange;
+  /* background: orange; */
   text-transform: uppercase;
   padding: 3%;
 }

@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 
 class BookCard extends Component {
   render(){
+
     // console.log('PROPS',this.props.bookData)
     // let rows = [];
     // console.log('BOOKDATA',this.props.bookData)
@@ -15,7 +16,7 @@ class BookCard extends Component {
     //   )
     // });
     return (
-      <div className="card"><CardContent bookData={this.props.bookData}/></div>
+      <div className="card"><CardContent bookData={this.props.bookData} styleCounter={this.props.styleCounter}/></div>
     );
   }
 }

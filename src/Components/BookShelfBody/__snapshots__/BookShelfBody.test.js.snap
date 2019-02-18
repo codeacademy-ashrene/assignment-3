@@ -18,7 +18,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
           className="card"
         >
           <div
-            className="cardContent"
+            className="cardContentOrange"
           >
             <img
               alt="Harry Potter Books"
@@ -35,7 +35,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 10
               </div>
               <div
-                class="rating"
+                className="rating"
               >
                 4.45
                 <img
@@ -51,7 +51,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
           className="card"
         >
           <div
-            className="cardContent"
+            className="cardContentWhite"
           >
             <img
               alt="Harry Potter Books"
@@ -68,7 +68,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 20
               </div>
               <div
-                class="rating"
+                className="rating"
               >
                 4.38
                 <img
@@ -84,7 +84,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
           className="card"
         >
           <div
-            className="cardContent"
+            className="cardContentOrange"
           >
             <img
               alt="Harry Potter Books"
@@ -101,7 +101,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 30
               </div>
               <div
-                class="rating"
+                className="rating"
               >
                 4.54
                 <img
@@ -117,7 +117,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
           className="card"
         >
           <div
-            className="cardContent"
+            className="cardContentWhite"
           >
             <img
               alt="Harry Potter Books"
@@ -134,7 +134,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 40
               </div>
               <div
-                class="rating"
+                className="rating"
               >
                 4.53
                 <img
@@ -150,7 +150,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
           className="card"
         >
           <div
-            className="cardContent"
+            className="cardContentOrange"
           >
             <img
               alt="Harry Potter Books"
@@ -167,7 +167,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 50
               </div>
               <div
-                class="rating"
+                className="rating"
               >
                 4.47
                 <img
@@ -183,7 +183,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
           className="card"
         >
           <div
-            className="cardContent"
+            className="cardContentWhite"
           >
             <img
               alt="Harry Potter Books"
@@ -200,7 +200,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 60
               </div>
               <div
-                class="rating"
+                className="rating"
               >
                 4.54
                 <img
@@ -216,7 +216,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
           className="card"
         >
           <div
-            className="cardContent"
+            className="cardContentOrange"
           >
             <img
               alt="Harry Potter Books"
@@ -233,7 +233,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 70
               </div>
               <div
-                class="rating"
+                className="rating"
               >
                 4.62
                 <img
@@ -260,7 +260,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
           className="card"
         >
           <div
-            className="cardContent"
+            className="cardContentOrange"
           >
             <img
               alt="Harry Potter Books"
@@ -277,7 +277,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 80
               </div>
               <div
-                class="rating"
+                className="rating"
               >
                 4.02
                 <img
@@ -293,7 +293,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
           className="card"
         >
           <div
-            className="cardContent"
+            className="cardContentWhite"
           >
             <img
               alt="Harry Potter Books"
@@ -310,7 +310,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 100
               </div>
               <div
-                class="rating"
+                className="rating"
               >
                 3.93
                 <img
@@ -326,7 +326,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
           className="card"
         >
           <div
-            className="cardContent"
+            className="cardContentOrange"
           >
             <img
               alt="Harry Potter Books"
@@ -343,7 +343,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 90
               </div>
               <div
-                class="rating"
+                className="rating"
               >
                 4.1
                 <img
@@ -359,7 +359,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
           className="card"
         >
           <div
-            className="cardContent"
+            className="cardContentWhite"
           >
             <img
               alt="Harry Potter Books"
@@ -376,7 +376,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 110
               </div>
               <div
-                class="rating"
+                className="rating"
               >
                 3.9
                 <img
@@ -392,7 +392,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
           className="card"
         >
           <div
-            className="cardContent"
+            className="cardContentOrange"
           >
             <img
               alt="Harry Potter Books"
@@ -409,7 +409,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 120
               </div>
               <div
-                class="rating"
+                className="rating"
               >
                 3.92
                 <img

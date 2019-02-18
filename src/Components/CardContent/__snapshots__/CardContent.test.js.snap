@@ -2,7 +2,7 @@
 
 exports[`CardContent should render header 1`] = `
 <div
-  className="cardContent"
+  className="cardContentOrange"
 >
   <img
     alt="Harry Potter Books"
@@ -19,7 +19,7 @@ exports[`CardContent should render header 1`] = `
       10
     </div>
     <div
-      class="rating"
+      className="rating"
     >
       4.45
       <img
