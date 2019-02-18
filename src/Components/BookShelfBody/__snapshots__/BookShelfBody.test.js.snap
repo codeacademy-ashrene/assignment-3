@@ -41,6 +41,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 <img
                   alt="heart"
                   className="heart"
+                  onClick={[Function]}
                   src="./Icons/heart-black.svg"
                 />
               </div>
@@ -74,6 +75,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 <img
                   alt="heart"
                   className="heart"
+                  onClick={[Function]}
                   src="./Icons/heart-black.svg"
                 />
               </div>
@@ -107,6 +109,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 <img
                   alt="heart"
                   className="heart"
+                  onClick={[Function]}
                   src="./Icons/heart-black.svg"
                 />
               </div>
@@ -140,6 +143,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 <img
                   alt="heart"
                   className="heart"
+                  onClick={[Function]}
                   src="./Icons/heart-black.svg"
                 />
               </div>
@@ -173,6 +177,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 <img
                   alt="heart"
                   className="heart"
+                  onClick={[Function]}
                   src="./Icons/heart-black.svg"
                 />
               </div>
@@ -206,6 +211,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 <img
                   alt="heart"
                   className="heart"
+                  onClick={[Function]}
                   src="./Icons/heart-black.svg"
                 />
               </div>
@@ -239,6 +245,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 <img
                   alt="heart"
                   className="heart"
+                  onClick={[Function]}
                   src="./Icons/heart-black.svg"
                 />
               </div>
@@ -283,6 +290,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 <img
                   alt="heart"
                   className="heart"
+                  onClick={[Function]}
                   src="./Icons/heart-black.svg"
                 />
               </div>
@@ -316,6 +324,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 <img
                   alt="heart"
                   className="heart"
+                  onClick={[Function]}
                   src="./Icons/heart-black.svg"
                 />
               </div>
@@ -349,6 +358,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 <img
                   alt="heart"
                   className="heart"
+                  onClick={[Function]}
                   src="./Icons/heart-black.svg"
                 />
               </div>
@@ -382,6 +392,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 <img
                   alt="heart"
                   className="heart"
+                  onClick={[Function]}
                   src="./Icons/heart-black.svg"
                 />
               </div>
@@ -415,6 +426,7 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
                 <img
                   alt="heart"
                   className="heart"
+                  onClick={[Function]}
                   src="./Icons/heart-black.svg"
                 />
               </div>

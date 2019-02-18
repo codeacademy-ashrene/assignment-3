@@ -2,12 +2,17 @@ import React, {Component} from 'react';
 import './Header.css';
 
 class Header extends Component {
+  state = {
+    bookDetails: [],
+    isLoading: true,
+  }
+
   render(){
     return (
       <div className = "bookShelf">
       <div className = "header">
         <div className = "headerLineLeft"><hr/></div>
-        <div className = "title">BS</div>
+        <button type = "button" className = "title">BS</button>
         <div className = "headerLineRight"><hr/></div>
       </div>
       <div className = "subheading">The Book Shelf</div>

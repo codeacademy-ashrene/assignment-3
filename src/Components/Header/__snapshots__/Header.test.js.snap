@@ -12,11 +12,12 @@ exports[`Header should render header 1`] = `
     >
       <hr />
     </div>
-    <div
+    <button
       className="title"
+      type="button"
     >
       BS
-    </div>
+    </button>
     <div
       className="headerLineRight"
     >

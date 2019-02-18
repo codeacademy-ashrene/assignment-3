@@ -37,9 +37,10 @@ class BookShelf extends Component {
     console.log('this.props', this.props.book);
     return (
       <div>
-       <div className="BookShelf">
-          <Header />
+        <div className="BookShelf">
+          <Header/>
           <BookShelfBody bookData = {this.props.book}/>
+     
        </div>
        </div>
     );

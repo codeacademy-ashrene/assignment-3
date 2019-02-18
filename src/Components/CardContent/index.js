@@ -14,7 +14,36 @@ class CardContent extends Component {
       likeStatus: likeData.data.likeStatus,
     })
   }
-  
+  onLikeClick = async () => {
+
+    if(this.state.likeStatus === "like"){
+      Axios.put(`http://localhost:8080/books/${this.props.bookData.id}/unlike`).then(
+        this.setState({
+          likeStatus: "unlike"
+        })
+      )
+      
+    }
+    else{
+      Axios.put(`http://localhost:8080/books/${this.props.bookData.id}/like`).then(
+        this.setState({
+          likeStatus: "like"
+        })
+      )
+      
+    }
+    // const likeData = await Axios.get(`http://localhost:8080/books/${this.props.bookData.id}/${this.state.likeStatus}`);
+    // console.log('DBSTAT', likeData);
+  }
+
+  // async componentDidUpdate(prevState){
+  //   if(this.state.likeStatus !== prevState.likeStatus){
+  //     const likeData = await Axios.get(`http://localhost:8080/books/${this.props.bookData.id}/${this.state.likeStatus}`)
+  //         this.setState({
+  //           likeStatus: this.state.likeStatus
+  //         })
+  //   }
+  // }
   render(){
     const liked = this.state.likeStatus === "like" ? './Icons/heart-red.svg' : './Icons/heart-black.svg';
     const cardColour = (this.props.styleCounter % 2) === 0 ? "cardContentWhite" : "cardContentOrange";
@@ -25,7 +54,7 @@ class CardContent extends Component {
         <img className="image" src="./cover_image.jpeg" alt="Harry Potter Books"/>
         <div class = "cardTextAndReaction">
           <div className = "cardText">{this.props.bookData.Name}{this.props.bookData.id}</div>
-          <div className = "rating">{this.props.bookData.rating}<img alt="heart" src={liked} className="heart" /></div>
+          <div className = "rating">{this.props.bookData.rating}<img alt="heart" src={liked} className="heart" onClick={this.onLikeClick}/></div>
         </div>
       </div>
     );
