@@ -1,11 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './BookCard.css';
-import CardContent from '../CardContent';
 import PropTypes from 'prop-types';
+import CardContent from '../CardContent';
 
 class BookCard extends Component {
-  render(){
-
+  render() {
     // console.log('PROPS',this.props.bookData)
     // let rows = [];
     // console.log('BOOKDATA',this.props.bookData)
@@ -16,12 +15,12 @@ class BookCard extends Component {
     //   )
     // });
     return (
-      <div className="card"><CardContent bookData={this.props.bookData} styleCounter={this.props.styleCounter}/></div>
+      <div className="card"><CardContent bookData={this.props.bookData} styleCounter={this.props.styleCounter} /></div>
     );
   }
 }
 BookCard.propTypes = {
-  bookData: PropTypes.object
-}
+  bookData: PropTypes.object,
+};
 
-export default BookCard
+export default BookCard;

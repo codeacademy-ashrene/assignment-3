@@ -3,16 +3,16 @@
 }
 fieldset{
   border: solid;
-  border-color: orange;
+  border-color: #FC904D;
   border-radius: 30px;
-  border-width: 5px;
+  border-width: 8px;
 }
 .authorCard{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 5%;
+  justify-content: space-evenly;
+  /* padding: 3%; */
   
   
 }
@@ -21,15 +21,16 @@ fieldset{
   background: white;
   width: 20%;
   margin:auto;
-  padding: 1%;
-  color: orange;
+  padding: 0.5%;
+  color: #FC904D;
   font-style: italic;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   font-weight: bold;
   box-sizing: border-box;
   overflow: hidden;
   min-width: 100px;
+  width: fit-content;
   /* z-index: 10;
   position: absolute;
   left: 50% */

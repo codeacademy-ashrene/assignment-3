@@ -14,6 +14,7 @@ exports[`Header should render header 1`] = `
     </div>
     <button
       className="title"
+      onClick={[Function]}
       type="button"
     >
       BS

@@ -1,28 +1,28 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './AuthorCard.css';
 import BookCard from '../BookCard';
-import PropTypes from 'prop-types';
 
 class AuthorCard extends Component {
-  render(){
-    let cardRow = [];
+  render() {
+    const cardRow = [];
     let author;
     let counter = 0;
-    this.props.bookData.forEach(element => {
+    this.props.bookData.forEach((element) => {
       counter += 1;
       author = element.Author;
       cardRow.push(
-        <BookCard bookData = {element} styleCounter = {counter} key={element.id}/>
-      )
+        <BookCard bookData={element} styleCounter={counter} key={element.id} />,
+      );
     });
     return (
-      <div className = "authorName">
-        <fieldset><legend className="author">{author}</legend>
+      <div className="authorName">
+        <fieldset>
+          <legend className="author">{author}</legend>
           <div className="authorCard">
             {cardRow}
           </div>
         </fieldset>
-        
+
       </div>
     );
   }

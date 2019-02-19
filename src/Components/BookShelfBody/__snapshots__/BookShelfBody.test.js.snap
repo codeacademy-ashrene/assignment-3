@@ -21,32 +21,33 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
             className="card"
           >
             <div
-              className="cardContentOrange"
+              className="cardEnclosingDiv"
             >
-              <img
-                alt="Harry Potter Books"
-                className="image"
-                src="./cover_image.jpeg"
+              <div
+                className="backgroundImage"
               />
               <div
-                className="cardTextAndReaction"
+                className="cardContentOrange"
               >
                 <div
-                  className="cardText"
+                  className="cardTextAndReaction"
                 >
-                  Harry Potter and the Sorcerers Stone (Harry Potter, #1)
-                  10
-                </div>
-                <div
-                  className="rating"
-                >
-                  4.5
-                  <img
-                    alt="heart"
-                    className="heart"
-                    onClick={[Function]}
-                    src="./Icons/heart-plain.svg"
-                  />
+                  <div
+                    className="cardText"
+                  >
+                    Harry Potter and the Sorcerers Stone (Harry Potter, #1)
+                  </div>
+                  <div
+                    className="rating"
+                  >
+                    4.5
+                    <img
+                      alt="heart"
+                      className="heart"
+                      onClick={[Function]}
+                      src="./Icons/heart-plain.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -55,32 +56,33 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
             className="card"
           >
             <div
-              className="cardContentWhite"
+              className="cardEnclosingDiv"
             >
-              <img
-                alt="Harry Potter Books"
-                className="image"
-                src="./cover_image.jpeg"
+              <div
+                className="backgroundImage"
               />
               <div
-                className="cardTextAndReaction"
+                className="cardContentWhite"
               >
                 <div
-                  className="cardText"
+                  className="cardTextAndReaction"
                 >
-                  Harry Potter and the Chamber of Secrets (Harry Potter, #2)
-                  20
-                </div>
-                <div
-                  className="rating"
-                >
-                  4.4
-                  <img
-                    alt="heart"
-                    className="heart"
-                    onClick={[Function]}
-                    src="./Icons/heart-black.svg"
-                  />
+                  <div
+                    className="cardText"
+                  >
+                    Harry Potter and the Chamber of Secrets (Harry Potter, #2)
+                  </div>
+                  <div
+                    className="rating"
+                  >
+                    4.4
+                    <img
+                      alt="heart"
+                      className="heart"
+                      onClick={[Function]}
+                      src="./Icons/heart-black.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -89,32 +91,33 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
             className="card"
           >
             <div
-              className="cardContentOrange"
+              className="cardEnclosingDiv"
             >
-              <img
-                alt="Harry Potter Books"
-                className="image"
-                src="./cover_image.jpeg"
+              <div
+                className="backgroundImage"
               />
               <div
-                className="cardTextAndReaction"
+                className="cardContentOrange"
               >
                 <div
-                  className="cardText"
+                  className="cardTextAndReaction"
                 >
-                  Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)
-                  30
-                </div>
-                <div
-                  className="rating"
-                >
-                  4.5
-                  <img
-                    alt="heart"
-                    className="heart"
-                    onClick={[Function]}
-                    src="./Icons/heart-plain.svg"
-                  />
+                  <div
+                    className="cardText"
+                  >
+                    Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)
+                  </div>
+                  <div
+                    className="rating"
+                  >
+                    4.5
+                    <img
+                      alt="heart"
+                      className="heart"
+                      onClick={[Function]}
+                      src="./Icons/heart-plain.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -123,32 +126,33 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
             className="card"
           >
             <div
-              className="cardContentWhite"
+              className="cardEnclosingDiv"
             >
-              <img
-                alt="Harry Potter Books"
-                className="image"
-                src="./cover_image.jpeg"
+              <div
+                className="backgroundImage"
               />
               <div
-                className="cardTextAndReaction"
+                className="cardContentWhite"
               >
                 <div
-                  className="cardText"
+                  className="cardTextAndReaction"
                 >
-                  Harry Potter and the Goblet of Fire (Harry Potter, #4)
-                  40
-                </div>
-                <div
-                  className="rating"
-                >
-                  4.5
-                  <img
-                    alt="heart"
-                    className="heart"
-                    onClick={[Function]}
-                    src="./Icons/heart-black.svg"
-                  />
+                  <div
+                    className="cardText"
+                  >
+                    Harry Potter and the Goblet of Fire (Harry Potter, #4)
+                  </div>
+                  <div
+                    className="rating"
+                  >
+                    4.5
+                    <img
+                      alt="heart"
+                      className="heart"
+                      onClick={[Function]}
+                      src="./Icons/heart-black.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -157,32 +161,33 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
             className="card"
           >
             <div
-              className="cardContentOrange"
+              className="cardEnclosingDiv"
             >
-              <img
-                alt="Harry Potter Books"
-                className="image"
-                src="./cover_image.jpeg"
+              <div
+                className="backgroundImage"
               />
               <div
-                className="cardTextAndReaction"
+                className="cardContentOrange"
               >
                 <div
-                  className="cardText"
+                  className="cardTextAndReaction"
                 >
-                  Harry Potter and the Order of the Phoenix (Harry Potter, #5)
-                  50
-                </div>
-                <div
-                  className="rating"
-                >
-                  4.5
-                  <img
-                    alt="heart"
-                    className="heart"
-                    onClick={[Function]}
-                    src="./Icons/heart-plain.svg"
-                  />
+                  <div
+                    className="cardText"
+                  >
+                    Harry Potter and the Order of the Phoenix (Harry Potter, #5)
+                  </div>
+                  <div
+                    className="rating"
+                  >
+                    4.5
+                    <img
+                      alt="heart"
+                      className="heart"
+                      onClick={[Function]}
+                      src="./Icons/heart-plain.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -191,32 +196,33 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
             className="card"
           >
             <div
-              className="cardContentWhite"
+              className="cardEnclosingDiv"
             >
-              <img
-                alt="Harry Potter Books"
-                className="image"
-                src="./cover_image.jpeg"
+              <div
+                className="backgroundImage"
               />
               <div
-                className="cardTextAndReaction"
+                className="cardContentWhite"
               >
                 <div
-                  className="cardText"
+                  className="cardTextAndReaction"
                 >
-                  Harry Potter and the Half-Blood Prince (Harry Potter, #6)
-                  60
-                </div>
-                <div
-                  className="rating"
-                >
-                  4.5
-                  <img
-                    alt="heart"
-                    className="heart"
-                    onClick={[Function]}
-                    src="./Icons/heart-black.svg"
-                  />
+                  <div
+                    className="cardText"
+                  >
+                    Harry Potter and the Half-Blood Prince (Harry Potter, #6)
+                  </div>
+                  <div
+                    className="rating"
+                  >
+                    4.5
+                    <img
+                      alt="heart"
+                      className="heart"
+                      onClick={[Function]}
+                      src="./Icons/heart-black.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -225,32 +231,33 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
             className="card"
           >
             <div
-              className="cardContentOrange"
+              className="cardEnclosingDiv"
             >
-              <img
-                alt="Harry Potter Books"
-                className="image"
-                src="./cover_image.jpeg"
+              <div
+                className="backgroundImage"
               />
               <div
-                className="cardTextAndReaction"
+                className="cardContentOrange"
               >
                 <div
-                  className="cardText"
+                  className="cardTextAndReaction"
                 >
-                  Harry Potter and the Deathly Hallows (Harry Potter, #7)
-                  70
-                </div>
-                <div
-                  className="rating"
-                >
-                  4.6
-                  <img
-                    alt="heart"
-                    className="heart"
-                    onClick={[Function]}
-                    src="./Icons/heart-plain.svg"
-                  />
+                  <div
+                    className="cardText"
+                  >
+                    Harry Potter and the Deathly Hallows (Harry Potter, #7)
+                  </div>
+                  <div
+                    className="rating"
+                  >
+                    4.6
+                    <img
+                      alt="heart"
+                      className="heart"
+                      onClick={[Function]}
+                      src="./Icons/heart-plain.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -274,32 +281,33 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
             className="card"
           >
             <div
-              className="cardContentOrange"
+              className="cardEnclosingDiv"
             >
-              <img
-                alt="Harry Potter Books"
-                className="image"
-                src="./cover_image.jpeg"
+              <div
+                className="backgroundImage"
               />
               <div
-                className="cardTextAndReaction"
+                className="cardContentOrange"
               >
                 <div
-                  className="cardText"
+                  className="cardTextAndReaction"
                 >
-                  If Tomorrow Comes (Tracy Whitney Series, #1)
-                  80
-                </div>
-                <div
-                  className="rating"
-                >
-                  4
-                  <img
-                    alt="heart"
-                    className="heart"
-                    onClick={[Function]}
-                    src="./Icons/heart-plain.svg"
-                  />
+                  <div
+                    className="cardText"
+                  >
+                    If Tomorrow Comes (Tracy Whitney Series, #1)
+                  </div>
+                  <div
+                    className="rating"
+                  >
+                    4
+                    <img
+                      alt="heart"
+                      className="heart"
+                      onClick={[Function]}
+                      src="./Icons/heart-plain.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -308,32 +316,33 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
             className="card"
           >
             <div
-              className="cardContentWhite"
+              className="cardEnclosingDiv"
             >
-              <img
-                alt="Harry Potter Books"
-                className="image"
-                src="./cover_image.jpeg"
+              <div
+                className="backgroundImage"
               />
               <div
-                className="cardTextAndReaction"
+                className="cardContentWhite"
               >
                 <div
-                  className="cardText"
+                  className="cardTextAndReaction"
                 >
-                  Tell Me Your Dreams
-                  100
-                </div>
-                <div
-                  className="rating"
-                >
-                  3.9
-                  <img
-                    alt="heart"
-                    className="heart"
-                    onClick={[Function]}
-                    src="./Icons/heart-black.svg"
-                  />
+                  <div
+                    className="cardText"
+                  >
+                    Tell Me Your Dreams
+                  </div>
+                  <div
+                    className="rating"
+                  >
+                    3.9
+                    <img
+                      alt="heart"
+                      className="heart"
+                      onClick={[Function]}
+                      src="./Icons/heart-black.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -342,32 +351,33 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
             className="card"
           >
             <div
-              className="cardContentOrange"
+              className="cardEnclosingDiv"
             >
-              <img
-                alt="Harry Potter Books"
-                className="image"
-                src="./cover_image.jpeg"
+              <div
+                className="backgroundImage"
               />
               <div
-                className="cardTextAndReaction"
+                className="cardContentOrange"
               >
                 <div
-                  className="cardText"
+                  className="cardTextAndReaction"
                 >
-                  Master of the Game
-                  90
-                </div>
-                <div
-                  className="rating"
-                >
-                  4.1
-                  <img
-                    alt="heart"
-                    className="heart"
-                    onClick={[Function]}
-                    src="./Icons/heart-plain.svg"
-                  />
+                  <div
+                    className="cardText"
+                  >
+                    Master of the Game
+                  </div>
+                  <div
+                    className="rating"
+                  >
+                    4.1
+                    <img
+                      alt="heart"
+                      className="heart"
+                      onClick={[Function]}
+                      src="./Icons/heart-plain.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -376,32 +386,33 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
             className="card"
           >
             <div
-              className="cardContentWhite"
+              className="cardEnclosingDiv"
             >
-              <img
-                alt="Harry Potter Books"
-                className="image"
-                src="./cover_image.jpeg"
+              <div
+                className="backgroundImage"
               />
               <div
-                className="cardTextAndReaction"
+                className="cardContentWhite"
               >
                 <div
-                  className="cardText"
+                  className="cardTextAndReaction"
                 >
-                  The Other Side of Midnight (Midnight #1)
-                  110
-                </div>
-                <div
-                  className="rating"
-                >
-                  3.9
-                  <img
-                    alt="heart"
-                    className="heart"
-                    onClick={[Function]}
-                    src="./Icons/heart-black.svg"
-                  />
+                  <div
+                    className="cardText"
+                  >
+                    The Other Side of Midnight (Midnight #1)
+                  </div>
+                  <div
+                    className="rating"
+                  >
+                    3.9
+                    <img
+                      alt="heart"
+                      className="heart"
+                      onClick={[Function]}
+                      src="./Icons/heart-black.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -410,32 +421,33 @@ exports[`BookShelfBody should render BookShelfBody 1`] = `
             className="card"
           >
             <div
-              className="cardContentOrange"
+              className="cardEnclosingDiv"
             >
-              <img
-                alt="Harry Potter Books"
-                className="image"
-                src="./cover_image.jpeg"
+              <div
+                className="backgroundImage"
               />
               <div
-                className="cardTextAndReaction"
+                className="cardContentOrange"
               >
                 <div
-                  className="cardText"
+                  className="cardTextAndReaction"
                 >
-                  Rage of Angels
-                  120
-                </div>
-                <div
-                  className="rating"
-                >
-                  3.9
-                  <img
-                    alt="heart"
-                    className="heart"
-                    onClick={[Function]}
-                    src="./Icons/heart-plain.svg"
-                  />
+                  <div
+                    className="cardText"
+                  >
+                    Rage of Angels
+                  </div>
+                  <div
+                    className="rating"
+                  >
+                    3.9
+                    <img
+                      alt="heart"
+                      className="heart"
+                      onClick={[Function]}
+                      src="./Icons/heart-plain.svg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

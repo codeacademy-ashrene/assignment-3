@@ -5,32 +5,33 @@ exports[`AuthorCard should render header 1`] = `
   className="card"
 >
   <div
-    className="cardContentOrange"
+    className="cardEnclosingDiv"
   >
-    <img
-      alt="Harry Potter Books"
-      className="image"
-      src="./cover_image.jpeg"
+    <div
+      className="backgroundImage"
     />
     <div
-      className="cardTextAndReaction"
+      className="cardContentOrange"
     >
       <div
-        className="cardText"
+        className="cardTextAndReaction"
       >
-        Harry Potter and the Sorcerers Stone (Harry Potter, #1)
-        10
-      </div>
-      <div
-        className="rating"
-      >
-        4.5
-        <img
-          alt="heart"
-          className="heart"
-          onClick={[Function]}
-          src="./Icons/heart-plain.svg"
-        />
+        <div
+          className="cardText"
+        >
+          Harry Potter and the Sorcerers Stone (Harry Potter, #1)
+        </div>
+        <div
+          className="rating"
+        >
+          4.5
+          <img
+            alt="heart"
+            className="heart"
+            onClick={[Function]}
+            src="./Icons/heart-plain.svg"
+          />
+        </div>
       </div>
     </div>
   </div>
